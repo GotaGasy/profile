@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: #BEA291;
+  color: #575F7D;
+  font-family: 'Lora' sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+/* Responsive */
+
+@media (min-width: 340px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
+
+@media (min-width: 720px) {
+  /* Pour un écran > 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+
+@media (min-width: 960px) {
+  /* Pour un écran > 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+.card-white {
+  background-color: whitesmoke;
+  border-radius: 4px;
+  margin: 20px 0px;
+  padding: 40px;
+  box-shadow: 10px 10px 50px rgba(10,10,10,0.4);
+  text-align: center;
+}
+
+/* Image radius */
+
+.avatar-radius {
+  width: 100px;
+  border-radius: 30%;
+}
+
+/* Boutton le Wagon - hover */
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+
+/* List inline - display - hover */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(220, 220, 220);
+}
+
+.list-inline i:hover {
+  color: black;
+}
